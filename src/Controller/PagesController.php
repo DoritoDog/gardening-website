@@ -18,6 +18,7 @@ use Cake\Core\Configure;
 use Cake\Http\Exception\ForbiddenException;
 use Cake\Http\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
+use Cake\Mailer\Email;
 
 /**
  * Static content controller
@@ -68,6 +69,11 @@ class PagesController extends AppController
     }
 
     public function order()
+    {
+        
+    }
+
+    public function placeOrder()
     {
         
     }

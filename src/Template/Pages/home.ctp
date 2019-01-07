@@ -120,14 +120,14 @@ email: aaazahradnydizajn@gmail.com
         <?= $this->Html->image('step-one.png') ?>
         <div class="step-text">
             <h3>Objednávka záhradného projektu</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi assumenda obcaecati veniam. Ad iste in soluta ipsam distinctio necessitatibus quia blanditiis nisi magnam molestias laudantium sunt doloribus esse, modi reprehenderit!</p>
+            <p>Plánujete krásnu záhradu k svojmu novopostavenému domu? Alebo prerábate už existujúcu záhradu? Sme tu pre Vás a za veľmi prijateľnú cenu Vám vytvoríme vizualizáciu Vašej vysnívanej záhrady. A jej realizáciu podľa technického nákresu a 3D modelu už zvládnete aj sami. A najmä ušetríte kopu finančných prostredkov.</p>
         </div>
     </div>
     <div class="step">
         <?= $this->Html->image('step-two.png') ?>
         <div class="step-text">
             <h3>Konzultácia a výber daného projektu zákaznikom</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam rerum perferendis adipisci dicta cumque tempora nemo, provident laborum modi dolor.</p>
+            <p>Celý záhradný projekt s Vami prekonzultujeme, pošleme Vám fotky, ako bude Vaša záhrada vyzerať a pošleme Vám aj všetku dokumentáciu ohľadom realizácie tak, aby naozaj jej realizácia bola jednoduchá.</p>
         </div>
     </div>
 </div>
