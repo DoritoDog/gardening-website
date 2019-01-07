@@ -39,14 +39,38 @@ use Cake\Network\Exception\NotFoundException;
         <a href="#">• Rozvrhnutia plochy - 2D model</a>
         <a href="#">• Priestorové zobrazenie 3D model</a>
     </div>
-    <div class="sidebar-link">
-        <span class="fa fa-shopping-cart"></span><a href="#">Objednávka projektu</a>
-    </div>
-    <div class="sidebar-link">
+    <div class="sidebar-dropdown-button">
         <span class="fa fa-check-circle"></span><a href="#">Aké údaje o záhrade potrebujeme?</a>
+        <i class="fa fa-chevron-down"></i>
+    </div>
+    <div class="sidebar-dropdown-container">
+        <ol>
+            <li>orientácia na svetové strany.</li>
+            <li>aká je výška budov v okolí záhrady (najlepšie je poslať fotografie do emailu).</li>
+            <li>Preferencie na dizajn - páči sa Vám moderná záhrada s rovnými líniami, vidiecka alebo provensálska či japonská?</li>
+            <li>Farebná škála - to je takisto dôležité. Preferujete farby tón v tóne alebo veľa farieb a kvetov?</li>
+            <li>Záhradná údržba - jednoduchá záhrada na údržbu (maximálne strihanie a kosenie trávnika) alebo kvetinové záhony a vodný prvok, prípadne relaxačná funkcia záhrady ako obývací priestor vonku.</li>
+            <li>Aké typy kvetov a drevín sa Vám najviac páčia? Niekto preferuje stálu zeleň v podobe ihličnanov, iný má rád neustálu premenu záhrady.</li>
+        </ol>
     </div>
     <div class="sidebar-link">
+        <span class="fa fa-shopping-cart"></span><?= $this->Html->link('Objednávka projektu', ['action' => 'order']) ?>
+    </div>
+    <div class="sidebar-dropdown-button">
         <a href="#">Obchodné podmienky</a>
+        <i class="fa fa-chevron-down"></i>
+    </div>
+    <div class="sidebar-dropdown-container">
+        <ol>
+            <li>Záhradný projekt sa realizuje ako 3D model spolu s 10 až 15 fotografiami, technický výkres a rozpis jednotlivých rastlín.</li>
+            <li>Pripomienkovanie sa rieši formou emailu a telefónneho rozhovoru. Pokiaľ je nevyhnutná osobná návšteva, účtujeme 30 eur za návštevu ako dopravné náklady.</li>
+            <li>Naša spoločnosť záhrady nerealizuje, robíme iba návrhy záhrad, prípadne nákup a vysadenie drevín a rastlín. Realizáciu závlahy, dlažby, chodníky a iné architektonické prvky naša spoločnosť nerealizuje.</li>
+            <li>Počas riešenia záhradného projektu sú zákazníkovi zasielané iba fotografie s návrhmi dizajnu na pripomienkovanie.</li>
+            <li>Všetku dokumentáciu k záhradnému projektu obdrží zákazník až po uhradení faktúry.</li>
+            <li>Štandardná doba na dodanie záhradného projektu je 2 až 3 týždne, v závislosti od komunikácie so zákazníkom.</li>
+            <li>Prvé fotografie posielame emailom už po prvom týždni.</li>
+            <li>Platbu zákazník realizuje na náš bankový účet prevodom</li>
+        </ol>
     </div>
     <div class="sidebar-dropdown-button">
         <span class="fa fa-book"></span>
@@ -59,8 +83,21 @@ use Cake\Network\Exception\NotFoundException;
         <a href="#">• Dreviny - kedy strihať a hnojiť</a>
         <a href="#">• Balkón - nádherné previsy - čo potrebujete?</a>
     </div>
-    <div class="sidebar-link">
+    <div class="sidebar-dropdown-button">
         <span class="fa fa-phone"></span><a href="#">Kontakt</a>
+        <i class="fa fa-chevron-down"></i>
+    </div>
+    <div class="sidebar-dropdown-container">
+        <p style="white-space: pre-wrap;">
+Dunya s r.o.
+Pod trnkami 314/20
+94901 Nitra
+IČo: 48149322
+Nie sme platcami DPH.
+Bankový účet: IBAN SK71 0900 0000 0002 6464 4504
+Telefón: 0917130290
+email: aaazahradnydizajn@gmail.com
+        </p>
     </div>
 
     <?= $this->Html->image('buttefly.png', ['width' => 200, 'class' => 'mx-auto mt-4']) ?>

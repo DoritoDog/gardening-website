@@ -57,7 +57,7 @@
                     <span class="fa fa-twitter top-navbar-link"></span>
                     <span class="fa fa-google-plus top-navbar-link"></span>
                 </div>
-                <div class="top-navbar-dark-link">Get in touch</div>
+                <div class="top-navbar-dark-link">Zavolajte nám</div>
                 <div class="top-navbar-dark-link">
                     <span class="fa fa-phone"></span>&nbsp; 0914 130 290
                 </div>
