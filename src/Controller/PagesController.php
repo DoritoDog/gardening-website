@@ -77,4 +77,19 @@ class PagesController extends AppController
     {
         
     }
+
+    public function contact()
+    {
+        
+    }
+
+    public function garden_info()
+    {
+
+    }
+
+    public function terms_and_conditions()
+    {
+        
+    }
 }

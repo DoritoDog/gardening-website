@@ -40,37 +40,13 @@ use Cake\Network\Exception\NotFoundException;
         <a href="#">• Priestorové zobrazenie 3D model</a>
     </div>
     <div class="sidebar-dropdown-button">
-        <span class="fa fa-check-circle"></span><a href="#">Aké údaje o záhrade potrebujeme?</a>
-        <i class="fa fa-chevron-down"></i>
-    </div>
-    <div class="sidebar-dropdown-container">
-        <ol>
-            <li>orientácia na svetové strany.</li>
-            <li>aká je výška budov v okolí záhrady (najlepšie je poslať fotografie do emailu).</li>
-            <li>Preferencie na dizajn - páči sa Vám moderná záhrada s rovnými líniami, vidiecka alebo provensálska či japonská?</li>
-            <li>Farebná škála - to je takisto dôležité. Preferujete farby tón v tóne alebo veľa farieb a kvetov?</li>
-            <li>Záhradná údržba - jednoduchá záhrada na údržbu (maximálne strihanie a kosenie trávnika) alebo kvetinové záhony a vodný prvok, prípadne relaxačná funkcia záhrady ako obývací priestor vonku.</li>
-            <li>Aké typy kvetov a drevín sa Vám najviac páčia? Niekto preferuje stálu zeleň v podobe ihličnanov, iný má rád neustálu premenu záhrady.</li>
-        </ol>
+        <span class="fa fa-check-circle"></span><?= $this->Html->link('Aké údaje o záhrade potrebujeme?', ['action' => 'garden_info']) ?>
     </div>
     <div class="sidebar-link">
         <span class="fa fa-shopping-cart"></span><?= $this->Html->link('Objednávka projektu', ['action' => 'order']) ?>
     </div>
     <div class="sidebar-dropdown-button">
-        <a href="#">Obchodné podmienky</a>
-        <i class="fa fa-chevron-down"></i>
-    </div>
-    <div class="sidebar-dropdown-container">
-        <ol>
-            <li>Záhradný projekt sa realizuje ako 3D model spolu s 10 až 15 fotografiami, technický výkres a rozpis jednotlivých rastlín.</li>
-            <li>Pripomienkovanie sa rieši formou emailu a telefónneho rozhovoru. Pokiaľ je nevyhnutná osobná návšteva, účtujeme 30 eur za návštevu ako dopravné náklady.</li>
-            <li>Naša spoločnosť záhrady nerealizuje, robíme iba návrhy záhrad, prípadne nákup a vysadenie drevín a rastlín. Realizáciu závlahy, dlažby, chodníky a iné architektonické prvky naša spoločnosť nerealizuje.</li>
-            <li>Počas riešenia záhradného projektu sú zákazníkovi zasielané iba fotografie s návrhmi dizajnu na pripomienkovanie.</li>
-            <li>Všetku dokumentáciu k záhradnému projektu obdrží zákazník až po uhradení faktúry.</li>
-            <li>Štandardná doba na dodanie záhradného projektu je 2 až 3 týždne, v závislosti od komunikácie so zákazníkom.</li>
-            <li>Prvé fotografie posielame emailom už po prvom týždni.</li>
-            <li>Platbu zákazník realizuje na náš bankový účet prevodom</li>
-        </ol>
+        <?= $this->Html->link('Obchodné podmienky', ['action' => 'terms_and_conditions']) ?>
     </div>
     <div class="sidebar-dropdown-button">
         <span class="fa fa-book"></span>

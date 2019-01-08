@@ -79,7 +79,7 @@
                 </div>
             </div>
             <?= $this->Html->link('Galéria', ['action' => 'gallery']) ?>
-            <a href="#">Kontakt</a>
+            <?= $this->Html->link('Kontakt', ['action' => 'contact']) ?>
         </div>
     </div>
     <!-- Navigation bar end -->
