@@ -34,31 +34,31 @@
                 ?>
             </div>
             <div class="form-group">
-                <?= $this->Form->label('size', 'Veľkosť pozemku vrátane domu v m2', ['class' => 'font-weight-bold']); ?>
                 <?php
-                $options = array();
-                echo $this->Form->select('size', $options, ['class' => 'form-control']);
+                echo $this->Form->label('size', 'Veľkosť pozemku vrátane domu v m2', ['class' => 'font-weight-bold']);
+                $options = ['name' => 'size', 'class' => 'form-control', 'label' => false, 'required' => true];
+                echo $this->Form->control('size', $options);
                 ?>
             </div>
             <div class="form-group">
-                <?= $this->Form->label('terrain', 'Terén pozemku', ['class' => 'font-weight-bold']); ?>
                 <?php
-                $options = array();
-                echo $this->Form->select('terrain', $options, ['class' => 'form-control']);
+                echo $this->Form->label('terrain', 'Terén pozemku', ['class' => 'font-weight-bold']);
+                $options = ['name' => 'terrain', 'class' => 'form-control', 'label' => false, 'required' => true];
+                echo $this->Form->control('terrain', $options);
                 ?>
             </div>
             <div class="form-group">
-                <?= $this->Form->label('delivery', 'Dodanie projektu', ['class' => 'font-weight-bold']); ?>
                 <?php
-                $options = array();
-                echo $this->Form->select('delivery', $options, ['class' => 'form-control']);
+                echo $this->Form->label('delivery', 'Dodanie projektu', ['class' => 'font-weight-bold']);
+                $options = ['name' => 'delivery', 'class' => 'form-control', 'label' => false, 'required' => true];
+                echo $this->Form->control('delivery', $options);
                 ?>
             </div>
             <div class="form-group">
-                <?= $this->Form->label('source', 'Odkiaľ ste sa o nás dozvedeli?', ['class' => 'font-weight-bold']); ?>
                 <?php
-                $options = array();
-                echo $this->Form->select('source', $options, ['class' => 'form-control']);
+                echo $this->Form->label('source', 'Odkiaľ ste sa o nás dozvedeli?', ['class' => 'font-weight-bold']);
+                $options = ['name' => 'source', 'class' => 'form-control', 'label' => false, 'required' => true];
+                echo $this->Form->control('source', $options);
                 ?>
             </div>
         </div>
@@ -73,9 +73,19 @@
         </label>
     </div>
     <?php
-    $options = ['id' => 'reg-submit', 'style' => 'margin-top: 20px', 'class' => 'btn btn-dark'];
+    $options = ['id' => 'reg-submit', 'style' => 'margin-top: 20px', 'class' => 'btn btn-dark', 'disabled' => true];
     echo $this->Form->button('Submit', $options);
     ?>
 </div>
 
 <?= $this->Form->end() ?>
+
+<script>
+
+var hasAgreedToTerms;
+function toggleSubmit() {
+    hasAgreedToTerms = !hasAgreedToTerms;
+    document.getElementById('reg-submit').disabled = !hasAgreedToTerms;
+}
+
+</script>
