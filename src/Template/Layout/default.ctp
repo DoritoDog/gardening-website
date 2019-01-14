@@ -49,7 +49,7 @@
     <div class="navigation-bar">
         <div class="top-navigation-bar">
             <div class="email">
-                <span class="fa fa-envelope"></span> <a href="#" class="top-navbar-link">slovak007@yahoo.com</a>
+                <span class="fa fa-envelope"></span> <a href="#" class="top-navbar-link">aaazahradnydizajn@gmail.com</a>
             </div>
             <div class="top-navbar-right">
                 <div class="social-links">
@@ -64,9 +64,9 @@
             </div>
         </div>
         <div class="bottom-navigation-bar" id="bottom-navbar">
-            <span class="ml-5 navigation-bar-title">AAA Záhradný Dizajn</span>
+            <span class="ml-5 "><?= $this->Html->link('AAA Záhradný Dizajn', ['action' => 'index'], ['class' => 'navigation-bar-title']) ?></span>
             <span class="fa fa-bars"></span>
-            <?= $this->Html->link('Úvod', ['action' => 'home'], ['class' => 'first-navbar-link']) ?>
+            <?= $this->Html->link('Úvod', ['action' => 'home'], ['class' => 'first-navbar-link navigation-link']) ?>
             <div class="navigation-bar-dropdown">
                 <button class="dropdown-button">Okrasná  Záhrada
                     <i class="fa fa-caret-down"></i>
@@ -78,8 +78,8 @@
                     <a href="#">Okrasné Dreviny</a>
                 </div>
             </div>
-            <?= $this->Html->link('Galéria', ['action' => 'gallery']) ?>
-            <?= $this->Html->link('Kontakt', ['action' => 'contact']) ?>
+            <?= $this->Html->link('Galéria', ['action' => 'gallery'], ['class' => 'navigation-link']) ?>
+            <?= $this->Html->link('Kontakt', ['action' => 'contact'], ['class' => 'navigation-link']) ?>
         </div>
     </div>
     <!-- Navigation bar end -->
@@ -93,3 +93,11 @@
 </body>
 <!-- <div class="preload-icon"></div> -->
 </html>
+
+<script>
+
+// $('.bottom-navigation-bar span').click(function() {
+//     alert(window.location);
+// });
+
+</script>

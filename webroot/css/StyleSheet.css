@@ -6,7 +6,7 @@
   background-position-y: 50px;
   background-size: 70%;
   background-repeat: repeat-x;
-  background-color: #bbff83;
+  background-color: white;
 }
 
 /* #region Navigation bar */
@@ -23,6 +23,10 @@
   align-items: center;
   margin: 0 75px;
   padding: 10px 0;
+}
+
+.navigation-bar-title {
+  cursor: pointer;
 }
 
 /* #region Media query */
@@ -137,7 +141,7 @@
   margin-left: 20%;
 }
 
-.bottom-navigation-bar a, .bottom-navigation-bar span {
+.navigation-link, .bottom-navigation-bar span {
   float: left;
   font-size: 18px;
   font-weight: 500;
@@ -148,18 +152,28 @@
   padding: 14px 20px;
 }
 
-.bottom-navigation-bar a {
+.navigation-link {
   color: black;
 }
 
-.bottom-navigation-bar span {
+.navigation-bar-title {
   color: #00ccff;
   font-family: 'Lobster';
+}
+
+.navigation-bar-title:hover {
+  text-decoration: none;
+  color: #00ccff;
+}
+
+.bottom-navigation-bar span:hover {
+  text-decoration: none;
 }
 
 .navigation-bar-dropdown {
   float: left;
   overflow: hidden;
+  z-index: 2;
 }
 
 .navigation-bar-dropdown .dropdown-button {
@@ -174,11 +188,11 @@
   margin: 0;
 }
 
-.bottom-navigation-bar a, .dropdown-button {
+.navigation-link, .dropdown-button {
   transition: color 0.3s;
 }
 
-.bottom-navigation-bar a:hover, .dropdown-button:hover {
+.navigation-link:hover, .dropdown-button:hover {
   color: rgb(146, 199, 0);
   text-decoration: none;
 }
@@ -227,7 +241,7 @@ footer {
 /* #region Sidebar */
 
 .sidebar {
-  background-color:#bbff83;
+  background-color: white ;/*#bbff83;*/
 
   position: absolute;
   left: 0;
@@ -330,14 +344,14 @@ footer {
 /* #endregion */
 
 .header-text {
-  color: green;
+  color: rgb(104, 62, 0);
   position: absolute;
   top: 30%;
   left: 40%;
 }
 
 .header-text h1 {
-  font-size: 60px;
+  font-size: 80px;
   font-family: 'Lobster', cursive;
 }
 
@@ -500,12 +514,18 @@ footer {
   justify-content: center;
 }
 
+.contact h1 {
+  color:rgb(104, 62, 0);
+  margin-bottom: 15px;
+}
+
 .contact-panel {
   background-color: #ffffffbb;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   height: 50%;
   width: 50%;
+  padding: 25px;
 
   display: flex;
   align-items: center;

@@ -1,9 +1,9 @@
 <div class="contact">
   <div class="contact-panel">
-    <h1 class="text-center">Kontaktujte nás</h1>
+    <h1 class="text-center">Aké údaje o záhrade potrebujeme</h1>
     <ol>
-      <li>orientácia na svetové strany.</li>
-      <li>aká je výška budov v okolí záhrady (najlepšie je poslať fotografie do emailu).</li>
+      <li>Orientácia na svetové strany.</li>
+      <li>Aká je výška budov v okolí záhrady (najlepšie je poslať fotografie do emailu).</li>
       <li>Preferencie na dizajn - páči sa Vám moderná záhrada s rovnými líniami, vidiecka alebo provensálska či japonská?</li>
       <li>Farebná škála - to je takisto dôležité. Preferujete farby tón v tóne alebo veľa farieb a kvetov?</li>
       <li>Záhradná údržba - jednoduchá záhrada na údržbu (maximálne strihanie a kosenie trávnika) alebo kvetinové záhony a vodný prvok, prípadne relaxačná funkcia záhrady ako obývací priestor vonku.</li>
