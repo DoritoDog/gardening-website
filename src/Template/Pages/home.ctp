@@ -119,7 +119,7 @@ email: aaazahradnydizajn@gmail.com
         </div>
         <div class="col-lg-4">
             <iframe width="350" height="240" allowfullscreen="allowfullscreen"
-            src="https://drive.google.com/file/d/187hFj-c1TOBMmeS1jEs4PwCE9i2BRmYu/preview">
+            src="https://drive.google.com/open?id=1ZnUHRs8mS9fluCuWbvziHZHQByJS7sT3/preview">
             </iframe>
         </div>
         <div class="col-lg-4">
