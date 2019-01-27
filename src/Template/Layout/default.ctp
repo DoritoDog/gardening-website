@@ -59,7 +59,7 @@
                 </div>
                 <div class="top-navbar-dark-link">Zavolajte nám</div>
                 <div class="top-navbar-dark-link">
-                    <span class="fa fa-phone"></span>&nbsp; 0914 130 290
+                    <span class="fa fa-phone"></span>&nbsp; 0917 130 290
                 </div>
             </div>
         </div>
