@@ -1,5 +1,12 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var \App\Model\Entity\Order $order
+ */
+?>
 
-<h1 class="text-center" style="margin-top: 90px;">Objednávka záhradného projektu</h1>
+<h1 class="text-center" style="padding-top: 80px;">Objednávka záhradného projektu</h1>
+<?= $this->Flash->render() ?>
 
 <?= $this->Form->create($order) ?>
 <div class="container">
@@ -57,8 +64,15 @@
             <div class="form-group">
                 <?php
                 echo $this->Form->label('discovery', 'Odkiaľ ste sa o nás dozvedeli?', ['class' => 'font-weight-bold']);
-                $options = ['name' => 'discovery', 'class' => 'form-control', 'label' => false, 'required' => true];
+                $options = ['name' => 'discovery', 'class' => 'form-control', 'label' => false];
                 echo $this->Form->control('discovery', $options);
+                ?>
+            </div>
+            <div class="form-group">
+                <?php
+                echo $this->Form->label('message', 'Správa', ['class' => 'font-weight-bold']);
+                $options = ['name' => 'message', 'class' => 'form-control', 'label' => false];
+                echo $this->Form->textarea('message', $options);
                 ?>
             </div>
         </div>
@@ -75,6 +89,7 @@
     <?php
     $options = ['id' => 'reg-submit', 'style' => 'margin-top: 20px', 'class' => 'btn btn-dark', 'disabled' => true];
     echo $this->Form->button('Submit', $options);
+    echo $this->Form->end();
     ?>
 </div>
 

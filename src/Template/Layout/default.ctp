@@ -64,9 +64,9 @@
             </div>
         </div>
         <div class="bottom-navigation-bar" id="bottom-navbar">
-            <span class="ml-5 "><?= $this->Html->link('AAA Záhradný Dizajn', ['action' => 'index'], ['class' => 'navigation-bar-title']) ?></span>
+            <span class="ml-5 "><?= $this->Html->link('AAA Záhradný Dizajn', ['controller' => 'pages', 'action' => 'index'], ['class' => 'navigation-bar-title']) ?></span>
             <span class="fa fa-bars"></span>
-            <?= $this->Html->link('Úvod', ['action' => 'home'], ['class' => 'first-navbar-link navigation-link']) ?>
+            <?= $this->Html->link('Úvod', ['controller' => 'pages', 'action' => 'home'], ['class' => 'first-navbar-link navigation-link']) ?>
             <div class="navigation-bar-dropdown">
                 <button class="dropdown-button">Okrasná  Záhrada
                     <i class="fa fa-caret-down"></i>
@@ -78,8 +78,8 @@
                     <a href="#">Okrasné Dreviny</a>
                 </div>
             </div>
-            <?= $this->Html->link('Galéria', ['action' => 'gallery'], ['class' => 'navigation-link']) ?>
-            <?= $this->Html->link('Kontakt', ['action' => 'contact'], ['class' => 'navigation-link']) ?>
+            <?= $this->Html->link('Galéria', ['controller' => 'pages', 'action' => 'gallery'], ['class' => 'navigation-link']) ?>
+            <?= $this->Html->link('Kontakt', ['controller' => 'pages', 'action' => 'contact'], ['class' => 'navigation-link']) ?>
         </div>
     </div>
     <!-- Navigation bar end -->

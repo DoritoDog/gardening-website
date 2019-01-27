@@ -68,16 +68,6 @@ class PagesController extends AppController
         }
     }
 
-    public function order()
-    {
-        
-    }
-
-    public function placeOrder()
-    {
-        
-    }
-
     public function contact()
     {
         

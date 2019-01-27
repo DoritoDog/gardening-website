@@ -40,10 +40,10 @@ use Cake\Network\Exception\NotFoundException;
         <a href="#">• Priestorové zobrazenie 3D model</a>
     </div>
     <div class="sidebar-dropdown-button">
-        <span class="fa fa-check-circle"></span><?= $this->Html->link('Aké údaje o záhrade potrebujeme?', ['action' => 'garden_info']) ?>
+        <span class="fa fa-check-circle"></span><?= $this->Html->link('Aké údaje o záhrade potrebujeme?', ['controller' => 'pages', 'action' => 'garden_info']) ?>
     </div>
     <div class="sidebar-link">
-        <span class="fa fa-shopping-cart"></span><?= $this->Html->link('Objednávka projektu', ['action' => 'order']) ?>
+        <span class="fa fa-shopping-cart"></span><?= $this->Html->link('Objednávka projektu', ['controller' => 'orders', 'action' => 'add']) ?>
     </div>
     <div class="sidebar-dropdown-button">
         <?= $this->Html->link('Obchodné podmienky', ['action' => 'terms_and_conditions']) ?>
