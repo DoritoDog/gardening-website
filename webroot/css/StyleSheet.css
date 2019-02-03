@@ -391,10 +391,6 @@ footer {
 
 /* #endregion */
 
-.homepage-section {
-  /* margin-top: 50px; */
-}
-
 .section-title {
   border-bottom: 3px solid rgb(146, 199, 0);
   padding-bottom: 20px;
@@ -422,6 +418,13 @@ footer {
 
 .step-text h3 {
   text-align: center;
+  margin-right: 140px;
+}
+
+@media only screen and (max-width: 650px) {
+  .step-text h3 {
+    margin-right: 0 !important;
+  }
 }
 
 /* #region Homepage gallery */
