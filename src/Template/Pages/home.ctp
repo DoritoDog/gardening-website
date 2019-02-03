@@ -54,7 +54,7 @@ use Cake\Network\Exception\NotFoundException;
         <i class="fa fa-chevron-down"></i>
     </div>
     <div class="sidebar-dropdown-container">
-        <a href="#">• Trávnik - ako sa ou správne postarať</a>
+        <a href="#">• Trávnik - ako sa oň správne postarať</a>
         <a href="#">• Záhony - kedy strihať a hnojiť</a>
         <a href="#">• Dreviny - kedy strihať a hnojiť</a>
         <a href="#">• Balkón - nádherné previsy - čo potrebujete?</a>
@@ -102,7 +102,7 @@ email: aaazahradnydizajn@gmail.com
     <div class="step">
         <?= $this->Html->image('step-two.png') ?>
         <div class="step-text">
-            <h3>Konzultácia a výber daného projektu zákaznikom</h3>
+            <h3>Konzultácia a výber daného projektu zákazníkom</h3>
             <p>Celý záhradný projekt s Vami prekonzultujeme, pošleme Vám fotky, ako bude Vaša záhrada vyzerať a pošleme Vám aj všetku dokumentáciu ohľadom realizácie tak, aby naozaj jej realizácia bola jednoduchá.</p>
         </div>
     </div>

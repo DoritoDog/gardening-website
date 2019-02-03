@@ -1,14 +1,5 @@
 <div class="gallery-header">
   <h3 class="text-center">Galéria</h3>
-
-  <div class="gallery-navigation mt-3">
-    <button class="btn gallery-tab">3D</button>
-    <button class="btn gallery-tab">2D</button>
-    <button class="btn gallery-tab">Zahrady</button>
-    <button class="btn gallery-tab">Bazeny</button>
-    <button class="btn gallery-tab">Ploty</button>
-    <button class="btn gallery-tab">Stromy</button>
-  </div>
 </div>
 
 <div class="gallery">
