@@ -472,6 +472,7 @@ footer {
 .gallery-img-text {
   opacity: 0;
   transition-duration: 0.5s;
+  display: none;
 }
 
 .gallery-img .gallery-img-text {
