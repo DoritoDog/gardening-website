@@ -7,6 +7,7 @@
   background-size: 70%;
   background-repeat: repeat-x;
   background-color: white;
+  z-index: 0;
 }
 
 /* #region Navigation bar */
@@ -173,7 +174,7 @@
 .navigation-bar-dropdown {
   float: left;
   overflow: hidden;
-  z-index: 2;
+  z-index: 3;
 }
 
 .navigation-bar-dropdown .dropdown-button {
@@ -199,7 +200,7 @@
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: fixed;
   background-color: white;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -430,7 +431,6 @@ footer {
 /* #region Homepage gallery */
 
 
-
 /* #endregion */
 
 /* #endregion */
@@ -533,6 +533,15 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+/* #endregion */
+
+/* #region Text Page */
+
+.text-page {
+  margin-top: 100px;
+  padding: 25px;
 }
 
 /* #endregion */

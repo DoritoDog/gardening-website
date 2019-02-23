@@ -42,7 +42,7 @@ class OrdersController extends AppController
         if ($this->request->is('post')) {
             $order = $this->Orders->patchEntity($order, $this->request->getData());
             if ($this->Orders->save($order)) {
-                $this->Flash->success(__('Vaša objednávka bola úspešne odolslaná!'));
+                $this->Flash->success(__('Vaša objednávka bola úspešne odoslaná!'));
 
                 return $this->redirect(['action' => 'add']);
             }
