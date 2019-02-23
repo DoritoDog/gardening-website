@@ -73,7 +73,7 @@
                 </button>
                 <div class="dropdown-content">
                     <a href="#">Záhony</a>
-                    <a href="#">Trávnik</a>
+                    <?= $this->Html->link('Trávnik', ['controller' => 'pages', 'action' => 'blog']) ?>
                     <a href="#">Balkón</a>
                     <a href="#">Okrasné Dreviny</a>
                 </div>
