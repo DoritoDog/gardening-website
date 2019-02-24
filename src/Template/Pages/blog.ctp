@@ -1,13 +1,24 @@
 
 <div class="blog-header">
-  <h1>Trávnik, ako sa o ňom správne postarať</h1>
 </div>
+
+<div class="blog">
+
+<h2 class="blog-title mt-5">Trávnik, ako sa oň správne postarať</h2>
+<div class="date">
+  <h4>• Friday, April 27, 2018</h4>
+  <h4>• Gardening</h4>
+</div>
+
 <p>
 Trávnik. Určite časť záhrady, ktorá bude vyžadovať vašu najväčšiu trpezlivosť a straostlivosť.
 Neustále kosenie, zavlažovanie, postreky proti burinám a machu, hnojenie. Potom vertikutácia,
 aerifikácia, pieskovanie a pod. Naozaj, pekný trávnik vyžaduje neustálu starostlivosť.
 A nehovoriac o tom, ak mate doma psíka, fenku, tak sa možte pripraviť na vypálené škvrny
 v trávniku a dosievanie.
+<br>
+<?= $this->Html->image('garden3.jpg', ['width' => 600]) ?>
+<br>
 Ale o trávnik sa dá postarať a tu vám dám niekoľko rád a tipov, ako to urobiť čo najjednoduchšie.
 Prvá vec, ktorú treba na jar urobiť je trávnik pohnojiť, kedˇ sa začne pozvoľna otepľovať.
 Korene trávnika totižto rastú už pri niekoľko málo stupňov nad nulou. Najlepšie je použiť 
@@ -15,7 +26,8 @@ minerálne hnojivo. Organické hnojivo takto na jar nemá moc význam. Aby organ
 účinkovalo, je potrebná práca mikroorganizmov v pôde, ktoré skoro na jar nie je možné.
 Trávnik potrebuje dusík a ak ho nemá, nič sa nedeje, trávnik bez výživy nerastie. 
 Ak mu ho dáme v podobe minerálneho hnojiva, okamžite účinkuje a tráva skoro zo dňa na deň 
-viditeľne premieňa svoje žlté listy na zelené. 
+viditeľne premieňa svoje žlté listy na zelené.
+<br><br>
 Potom by mala nasledovať vertikutácia. Trávnik už musí byť prebudený a viditeľne rásť, aby 
 vertikutácia mala účinok. Názory na vertikutáciu sa rôznia. Pravdou zostáva, že kedysi ju 
 nikto nerobil a trávniky boli aj tak pekné. Sama mám trávnik aj pred domom, aj v zadnej časti 
@@ -33,3 +45,4 @@ Takže starostlivosť nemusí byť úplne dokonalá, záleží iba na tom, či s
 Pri trávniku si treba uvedomiť, že nakrátko vykosený trávnik neposkytuje útočisko žiadnemu hmyzu 
 ani iným organizmom. Všetko treba robiť s mierou, tak, aby sme mali z toho radosť.
 </p>
+</div>

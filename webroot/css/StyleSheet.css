@@ -551,9 +551,32 @@ footer {
   justify-content: center;
 }
 
-.blog-header h1 {
-  color: green;
-  
+.blog {
+  width: 50%;
+  margin: auto;
+}
+
+.blog p {
+  margin-top: 100px;
+  text-align: justify;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  color: maroon;
+}
+
+.date h4 {
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.blog p img {
+  margin: 30px 30px;
 }
 
 /* #endregion */

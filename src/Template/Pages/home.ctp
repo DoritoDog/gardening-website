@@ -54,7 +54,7 @@ use Cake\Network\Exception\NotFoundException;
         <i class="fa fa-chevron-down"></i>
     </div>
     <div class="sidebar-dropdown-container">
-        <a href="#">• Trávnik - ako sa oň správne postarať</a>
+        <?= $this->Html->link('• Trávnik - ako sa oň správne postarať', ['action' => 'blog']) ?>
         <a href="#">• Záhony - kedy strihať a hnojiť</a>
         <a href="#">• Dreviny - kedy strihať a hnojiť</a>
         <a href="#">• Balkón - nádherné previsy - čo potrebujete?</a>
