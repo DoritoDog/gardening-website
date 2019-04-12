@@ -6,8 +6,8 @@
 
 <h2 class="blog-title mt-5">Trávnik, ako sa oň správne postarať</h2>
 <div class="date">
-  <h4>• Friday, April 27, 2018</h4>
-  <h4>• Gardening</h4>
+  <h4>• 24.02.2018</h4>
+  <h4>• Záhrada</h4>
 </div>
 
 <p>
@@ -17,7 +17,7 @@ aerifikácia, pieskovanie a pod. Naozaj, pekný trávnik vyžaduje neustálu sta
 A nehovoriac o tom, ak mate doma psíka, fenku, tak sa možte pripraviť na vypálené škvrny
 v trávniku a dosievanie.
 <br>
-<?= $this->Html->image('garden3.jpg', ['width' => 600]) ?>
+<?= $this->Html->image('grass.jpg', ['width' => 600]) ?>
 <br>
 Ale o trávnik sa dá postarať a tu vám dám niekoľko rád a tipov, ako to urobiť čo najjednoduchšie.
 Prvá vec, ktorú treba na jar urobiť je trávnik pohnojiť, kedˇ sa začne pozvoľna otepľovať.
@@ -34,7 +34,7 @@ nikto nerobil a trávniky boli aj tak pekné. Sama mám trávnik aj pred domom, 
 záhrady. Vpredu ju vertikutujem každý rok a vzadu je to náročnejšie, tak tam som prestala.
 A tráva je tam krajsia, zelenšia a venujem jej naozaj minimum pozornosti.
 Niekedy je asi lepšie nechať to všetko na prírodu, ktorá si s tým najlepšie poradí.
-Kedˇ použijete vertikutátor, tak len s minumálnou dl´žkou nožov. A  hnedˇ treba trávnik v zárezoch
+Kedˇ použijete vertikutátor, tak len s minimálnou dl´žkou nožov. A  hnedˇ treba trávnik v zárezoch
 dosiať. Pretože práve v týchto miestach sa usadia semienka burín a možte začať s postrekmi.
 Podľa zistení z najnovšej odbornej literatúry je najdôležitejšou podmienkou krásneho trávnika
 správne hnojenie správnymi hnojivami. Trávnik pri neustálom kosení stráca listovú plochu
